@@ -1,0 +1,48 @@
+.banner figure{
+	margin: 0;
+}
+
+.banner__img{
+	@extend %one-whole;
+}
+.banner__title{
+	color: white;
+	font-size: 3.5rem;
+	position: absolute;
+	right: 10rem;
+	text-align: right;
+	top: 6rem;
+	width: 27%;
+}
+
+.info{
+	@extend %one-whole;
+	background: rgba(0,0,0,0.4);
+	border-top: 1px #333 solid;
+	position: relative;
+	top: -52px;
+}
+.info_heartnum{
+	float: right;
+}
+.info__icon svg{
+	fill: #DC0000;
+	height: .9rem;
+	width: .9rem;
+}
+.info__icon--white svg{
+	fill:#FFF;
+}
+.info__text{
+	color: #FFF;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 1rem 1.5rem;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+
+.info__text--red{
+	color: #DC0000;
+}

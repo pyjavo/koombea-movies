@@ -1,0 +1,90 @@
+header{
+	@extend %grid;
+	@extend %grid--full;
+}
+
+.company-logo{
+	@extend %one-quarter;
+	margin-top: 0;
+}
+.company-logo__name{
+	color: #444050;
+	font-size: .54em;
+	margin-left: 10%;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.company-logo__name--doubleo{
+	color: #DC0000;
+}
+.company-logo__name--icon{
+	fill: #DC0000;
+	height: 1rem;
+	margin: -0.2rem 0 0 0;
+	width: 1rem;
+}
+.nav{
+	@extend %two-quarters;
+}
+.nav__list{
+	list-style-type: none;
+}
+.nav__list-element{
+	display: inline-block;
+}
+.nav__list-element a{
+	@extend %grid--center;
+	color: #444050;
+	margin: 0 100%;
+	text-decoration: none;
+}
+
+.nav__list-element svg{
+	fill: #5F5C67;
+	height: 1.2rem;
+	width: 1.2rem;
+}
+
+.u-profile{
+	@extend %one-quarter;
+	@extend %grid--center;
+}
+.u-profile figure, .u-profile figcaption{
+	display: inline-block;
+	margin-right: 0px;
+}
+
+.u-profile__circle,
+.u-profile__circle--red{
+	background: #FAFAFA;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	height: 12px;
+	margin: -0.2rem 0 0 2.2rem;
+	position: absolute;
+	width: 12px;
+	z-index: 1;
+}
+
+.u-profile__circle--red{
+	background: #DC0000;
+	height: 6px;
+	margin: 0 0 0 2.35rem;
+	width: 6px;
+	z-index: 2;
+}
+
+.u-profile__icon a{
+	margin: 0;
+}
+.u-profile__img{
+	border-radius: 50%;
+	width: 20%;
+}
+
+.company-logo, 
+.nav, 
+.u-profile{
+	@extend %grid__item;
+}

@@ -1,0 +1,91 @@
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-style: italic;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-style: italic;  
+}
+
+:-ms-input-placeholder {  
+   font-style: italic;  
+}
+
+.form{
+	float: right;
+	margin-top: 1.17rem;
+}
+
+.form__search{
+	border-style: none;
+	border-bottom-style: solid;
+	border-bottom-width: .1rem;
+	border-bottom-color: #CACCCB;
+}
+
+.form__icon{
+	position: absolute;
+  	margin: -28px;
+  	right: 100px;
+  	padding: 3px 0px;
+  	height: auto;
+  	width: 1.3rem;
+}
+
+.form, .playlist__title{
+	display: inline-block;
+}
+.playlist{
+	margin: -2rem 4rem 1rem;
+}
+.playlist{
+	@extend %grid;
+}
+.playlist__title{
+	color: #444050;	
+	font-style: italic;
+	font-weight: normal;
+}
+.playlist__title--favorites{
+	display: block;
+	margin: 3rem 0 1rem;
+}
+.playlist__layer{
+	background: rgba(119,136,153,0.5);
+    height: 186px;
+    position: absolute;
+    width: 16.3%;
+    border-radius: 2.5px;
+    display: inline-block;
+}
+.thumbs{
+	@extend %one-fifth;
+	display: inline-block;
+	margin-bottom: 2rem;
+}
+
+.thumbs:last-child{
+	width: 18%;
+}
+
+.thumbs figure{
+	margin: 0;
+}
+.thumbs__icon{
+	margin: .6rem 0 0 1rem;
+	position: absolute;
+}
+.thumbs__icon--download{
+	margin: .3rem 0 0 11rem;
+}
+.thumbs__img{
+	border-radius: 2.5%;
+}
+.thumbs__name{
+	position: absolute;
+    color: white;
+    margin: -2.5rem 0 0 1rem;
+}

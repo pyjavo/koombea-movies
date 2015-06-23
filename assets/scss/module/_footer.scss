@@ -1,0 +1,25 @@
+.company-logo__name--footer{
+	@extend %one-third; 
+	color: #FFF;
+}
+
+.footer{
+	@extend %grid;
+	color: #FFF;
+	background-color: #444050;
+}
+
+.footer__text{
+	display: inline-block;
+	font-size: .65rem;
+	margin: 1rem 4rem;
+}
+
+.company-logo--footer{
+	@extend %two-thirds;
+	display: inline-block;
+	font-size: 2em;
+	margin: 1px 0 1px 3rem;
+	text-align: right;
+}
+
