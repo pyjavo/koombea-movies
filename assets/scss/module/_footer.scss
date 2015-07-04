@@ -1,12 +1,12 @@
 .company-logo__name--footer{
 	@extend %one-third; 
-	color: #FFF;
+	color: $color-blanco;
 }
 
 .footer{
 	@extend %grid;
-	color: #FFF;
-	background-color: #444050;
+	color: $color-blanco;
+	background-color: $color-gris;
 }
 
 .footer__text{

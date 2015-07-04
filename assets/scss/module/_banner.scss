@@ -6,7 +6,7 @@
 	@extend %one-whole;
 }
 .banner__title{
-	color: white;
+	color: $color-blanco;
 	font-size: 3.5rem;
 	position: absolute;
 	right: 10rem;
@@ -26,15 +26,15 @@
 	float: right;
 }
 .info__icon svg{
-	fill: #DC0000;
+	fill: $color-rojo;
 	height: .9rem;
 	width: .9rem;
 }
 .info__icon--white svg{
-	fill:#FFF;
+	fill: $color-blanco;
 }
 .info__text{
-	color: #FFF;
+	color: $color-blanco;
 	display: inline-block;
 	font-size: 14px;
 	font-weight: bold;
@@ -44,5 +44,5 @@
 }
 
 .info__text--red{
-	color: #DC0000;
+	color: $color-rojo;
 }

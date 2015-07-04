@@ -8,17 +8,17 @@ header{
 	margin-top: 0;
 }
 .company-logo__name{
-	color: #444050;
+	color: $color-gris;
 	font-size: .54em;
 	margin-left: 10%;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 .company-logo__name--doubleo{
-	color: #DC0000;
+	color: $color-rojo;
 }
 .company-logo__name--icon{
-	fill: #DC0000;
+	fill: $color-rojo;
 	height: 1rem;
 	margin: -0.2rem 0 0 0;
 	width: 1rem;
@@ -34,7 +34,7 @@ header{
 }
 .nav__list-element a{
 	@extend %grid--center;
-	color: #444050;
+	color: $color-gris;
 	margin: 0 100%;
 	text-decoration: none;
 }
@@ -56,7 +56,7 @@ header{
 
 .u-profile__circle,
 .u-profile__circle--red{
-	background: #FAFAFA;
+	background: $color-gris-cuerpo;
 	border-radius: 50px;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
@@ -68,7 +68,7 @@ header{
 }
 
 .u-profile__circle--red{
-	background: #DC0000;
+	background: $color-rojo;
 	height: 6px;
 	margin: 0 0 0 2.35rem;
 	width: 6px;
