@@ -1,11 +1,11 @@
-#Test Front-end Koombea
+# Test Front-end Koombea
 
 Este repositorio contiene los entregables para la prueba Front-end de Koombea del 2015. 
 Las pruebas se realizaron con Google Chrome versión 42.0.2311.90. 
 
 
 
-####**Anotaciones del desarrollador**
+#### **Anotaciones del desarrollador**
 
 (06/01/2018)
 
@@ -16,7 +16,7 @@ Terminaré el proyecto para practicar un poco AngularJS y maquetación.
 Entrego la estructura del HMTL de la página. Para las convenciones de las clases me guié de [SuitCSS](https://suitcss.github.io/).
 Guiándome de SCRUM y tomando en cuenta el tiempo y la cantidad de trabajo opté por maquetar por bloques. De acuerdo a esto, para la fecha y hora estipulada entrego el bloque que en el código llamé Header, el cual incluye el brand del sitio, la botonera de navegación y la sección del usuario.
 
-##Requerimientos
+## Requerimientos
 
 ____
 1. Todo texto debe poder ser seleccionado en el navegador, a excepción del texto que haga parte de logos o imágenes.
@@ -56,7 +56,7 @@ CoffeeScript, SASS y Stylus son permitidos.
 7. Transiciones, accesibilidad y detalles adicionales.
 
 
-####A tener en cuenta
+#### A tener en cuenta
 
 ____
 1. Atención a los detalles
@@ -66,7 +66,7 @@ ____
 5. Simplicidad
 
 
-#####Entregables
+##### Entregables
 ___
 1. Link al repositorio en GitHub 
 2. URL de la página funcionando en un servidor
