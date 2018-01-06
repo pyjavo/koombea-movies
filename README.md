@@ -13,7 +13,7 @@ Terminaré el proyecto para practicar un poco AngularJS y maquetación.
 
 (26/04/2015) 
 
-Entrego la estructura del HMTL de la página. Para las convenciones de las clases me guié de [SuitCSS](https://suitcss.github.io/).
+Entrego la estructura del HMTL de la página. Para las convenciones de las clases CSS me guié de [SuitCSS](https://suitcss.github.io/) y para el grid use [csswizardry-grids](https://csswizardry.com/csswizardry-grids/).
 Guiándome de SCRUM y tomando en cuenta el tiempo y la cantidad de trabajo opté por maquetar por bloques. De acuerdo a esto, para la fecha y hora estipulada entrego el bloque que en el código llamé Header, el cual incluye el brand del sitio, la botonera de navegación y la sección del usuario.
 
 ## Requerimientos
