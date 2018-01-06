@@ -26,13 +26,15 @@ ____
 3. El sitio debe ser responsive, incluyendo pantallas con resoluciones altas. 
 CoffeeScript, SASS y Stylus son permitidos.
 
-4. Se puede usar cualquier framework de Javascript.
+4. CoffeeScript, SASS y Stylus son permitidos.
 
-5. Probar en un solo navegador (indicar cuál y qué versión).
+5. Se puede usar cualquier framework de Javascript.
 
-6. Al hacer click en una película se debe abrir un acordeón mostrando los detalles sobre la película, como se muestra en la página 3 del diseño
+6. Probar en un solo navegador (indicar cuál y qué versión).
 
-7. Al hacer click en el botón ‘Watch Trailer’ se debe abrir un modal window (pop-up) con el video como se muestra en la página 4 del diseño. Usar cualquier video para probar.
+7. Al hacer click en una película se debe abrir un acordeón mostrando los detalles sobre la película, como se muestra en la página 3 del diseño
+
+8. Al hacer click en el botón ‘Watch Trailer’ se debe abrir un modal window (pop-up) con el video como se muestra en la página 4 del diseño. Usar cualquier video para probar.
  
 **Opcionales**
 
@@ -52,6 +54,7 @@ CoffeeScript, SASS y Stylus son permitidos.
 
 
 6. Optimizaciones para rendimiento.
+
 
 7. Transiciones, accesibilidad y detalles adicionales.
 
