@@ -65,10 +65,11 @@
 	@extend %one-fifth;
 	display: inline-block;
 	margin-bottom: 2rem;
+	width: 18%;
 }
 
-.thumbs:last-child{
-	width: 18%;
+.thumbs:not(:first-child) {
+    margin-left: 2%;
 }
 
 .thumbs figure{
