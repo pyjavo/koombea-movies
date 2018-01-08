@@ -55,17 +55,28 @@
 }
 .playlist__layer{
 	background: rgba(119,136,153,0.5);
-    height: 186px;
+    height: 45.8%;
     position: absolute;
-    width: 16.3%;
-    border-radius: 2.5px;
+    width: 16.2%;
+    border-radius: 3.5%;
     display: inline-block;
 }
+
+.playlist__layer:hover{
+	background: rgba(119,136,153,0.3);
+}
+
 .thumbs{
 	@extend %one-fifth;
 	display: inline-block;
 	margin-bottom: 2rem;
 	width: 18%;
+}
+
+.thumbs:hover{
+	border-color: red;
+	border-radius: 3.5%;
+	border-style: solid;
 }
 
 .thumbs:not(:first-child) {
@@ -84,6 +95,7 @@
 }
 .thumbs__img{
 	border-radius: 2.5%;
+	width: 100%;
 }
 .thumbs__name{
 	position: absolute;
