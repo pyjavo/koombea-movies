@@ -24,7 +24,6 @@ ____
 2. Los botones deben poder cambiar su tamaño naturalmente al modificarse su texto.
 
 3. El sitio debe ser responsive, incluyendo pantallas con resoluciones altas. 
-CoffeeScript, SASS y Stylus son permitidos.
 
 4. CoffeeScript, SASS y Stylus son permitidos.
 
