@@ -55,7 +55,8 @@
 }
 .playlist__layer{
 	background: rgba(119,136,153,0.5);
-    height: 26.2%;
+    /*height: 26.2%;*/
+    height: 186px;
     position: absolute;
     width: 16.2%;
     border-radius: 3.5%;
@@ -74,9 +75,8 @@
 }
 
 .thumbs:hover{
-	border-color: red;
+	border: 3px red solid;
 	border-radius: 3.5%;
-	border-style: solid;
 }
 
 .thumbs:not(:first-child) {
