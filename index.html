@@ -9,7 +9,7 @@
         <link rel="shortcut icon" href="favicon.ico" />
         <link href='https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -326,7 +326,7 @@
                         </span>
                     </span>
                 </p>
-                <button class="display__summary__button">Watch Trailer</button>
+                <button class="display__summary__button" data-fancybox data-src="#modal" href="javascript:;">Watch Trailer</button>
                 <button class="display__summary__button">Add to favorites</button>
             </div>
             
@@ -339,6 +339,10 @@
                 <p>Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...</p> 
             </div>
         </section><!--
+         --><div style="display: none;" id="modal">
+            <h2>Guardians of the Galaxy</h2>
+            <p>You are awesome!</p>
+        </div><!--
             --><section class="playlist">
                 <div class="playlist__grid">
                 <!-- 2da fila articulo 1-->
@@ -614,8 +618,8 @@
         </footer><!--
         --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="jquery.fancybox.min.js"></script>
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
     </body>
 </html>
