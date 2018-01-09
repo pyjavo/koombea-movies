@@ -14,6 +14,69 @@
    font-style: italic;  
 }
 
+.info__text--block{
+	display: block;
+}
+
+.display{
+	background-color: #2C2F36;
+	color: #FFF;
+	margin-top: -2rem;
+	padding: 2rem;
+	display: none;
+}
+
+.display .display__summary .info__text{
+	margin-left: 0;
+}
+
+.display__image,
+.display__credits{
+	@extend %one-fifth;
+	display: inline-block;
+}
+
+.display__image{
+	margin: 0 2rem 0 0;
+	vertical-align: top;
+}
+
+.display__image figure img{
+	border: 2px grey solid;
+	border-radius: 4px;
+}
+
+.display__summary{
+	@extend %one-half;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.display__summary__button{
+	background-color: #DC0000;
+	border-color: #DC0000;
+	border-radius: 3px;
+	margin-right: 2em;
+	padding: 0.7em;
+}
+
+.display__summary__button:hover{
+	background-color: #b30000;
+	border-color: #b30000;
+}
+
+.display__summary__title{
+	font-size: 2em;
+}
+
+.display__summary__text{
+	margin-right: 5em;
+}
+
+.display__credits__title{
+	text-decoration: underline;
+}
+
 .form{
 	float: right;
 	margin-top: 1.17rem;
@@ -39,9 +102,14 @@
 	display: inline-block;
 }
 .playlist{
-	margin: -2rem 4rem 1rem;
+	margin: 2rem 4rem 1rem;
 }
-.playlist{
+
+.new-releases{
+	margin: -2rem 4rem -1rem;
+}
+.playlist,
+.new-releases{
 	@extend %grid;
 }
 .playlist__title{
@@ -69,6 +137,7 @@
 
 .thumbs{
 	@extend %one-fifth;
+	cursor: pointer;
 	display: inline-block;
 	margin-bottom: 2rem;
 	width: 18%;
