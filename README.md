@@ -13,7 +13,7 @@ Terminaré el proyecto para practicar un poco AngularJS y maquetación.
 
 (26/04/2015) 
 
-Entrego la estructura del HMTL de la página. Para las convenciones de las clases CSS me guié de [SuitCSS](https://suitcss.github.io/) y para el grid use [csswizardry-grids](https://csswizardry.com/csswizardry-grids/).
+Entrego la estructura del HMTL de la página. Para las convenciones de las clases CSS me guié de [BEM](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) y para el grid use [csswizardry-grids](https://csswizardry.com/csswizardry-grids/).
 Guiándome de SCRUM y tomando en cuenta el tiempo y la cantidad de trabajo opté por maquetar por bloques. De acuerdo a esto, para la fecha y hora estipulada entrego el bloque que en el código llamé Header, el cual incluye el brand del sitio, la botonera de navegación y la sección del usuario.
 
 ## Requerimientos
@@ -24,7 +24,6 @@ ____
 2. Los botones deben poder cambiar su tamaño naturalmente al modificarse su texto.
 
 3. El sitio debe ser responsive, incluyendo pantallas con resoluciones altas. 
-CoffeeScript, SASS y Stylus son permitidos.
 
 4. CoffeeScript, SASS y Stylus son permitidos.
 
