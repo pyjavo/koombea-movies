@@ -29,6 +29,9 @@ header{
 .nav__list{
 	list-style-type: none;
 }
+.nav__list .nav__list-element{
+	margin: 0 1.3em;
+}
 .nav__list-element{
 	display: inline-block;
 }
