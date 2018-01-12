@@ -77,6 +77,10 @@
 	text-decoration: underline;
 }
 
+.divider{
+	margin-top: 0;
+}
+
 .form{
 	float: right;
 	margin-top: 1.17rem;
@@ -101,6 +105,20 @@
 .form, .playlist__title{
 	display: inline-block;
 }
+
+.modal{
+	width: 80%;
+}
+
+.modal__video iframe{
+	@extend %one-half;
+	@extend %push--one-quarter;
+}
+
+.modal__title{
+    margin-bottom: 0;
+}
+
 .playlist{
 	margin: 2rem 4rem 1rem;
 }
@@ -133,6 +151,30 @@
 
 .playlist__layer:hover{
 	background: rgba(119,136,153,0.3);
+}
+
+.similars__figure{
+	@extend %one-eighth;
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+}
+
+.similars__figure:first-child{
+	margin-left: 3em;
+}
+
+.similars__figure img{
+	height: 9em;
+}
+
+.similars__figure img,
+.similars__figure figcaption h4{
+	width: 80%;
+}
+
+.similars__figure figcaption h4{
+	text-align: center;
 }
 
 .thumbs{
